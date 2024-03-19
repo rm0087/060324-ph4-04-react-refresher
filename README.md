@@ -11,3 +11,5 @@
 - useEffect
 
 - Fetch requests
+
+- Server requests
