@@ -1,3 +1,13 @@
-# Flask
+# React Refresher
 
-Write your readme here!
+## Learning Goals
+
+- React Components
+
+- Props
+
+- State management
+
+- useEffect
+
+- Fetch requests
