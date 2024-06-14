@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 
-from flask import Flask, make_response, jsonify
-from flask_cors import CORS
-
+from flask import make_response, jsonify
 from models import music
 
-app = Flask(__name__)
-app.json.compact = False
-
-CORS(app)
+from config import app
 
 @app.get('/')
 def index():
