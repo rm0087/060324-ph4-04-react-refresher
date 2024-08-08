@@ -20,6 +20,8 @@ Begin with `pipenv install` and `pipenv shell`. From there, `cd server`.
 
 You will need to initialize the database. Use `flask db init` followed by `flask db migrate` and `flask db upgrade`. You should also run the seed file with `python seed.py`. It's suggested that you look at the seed file so you understand how it works.
 
+The `app.py` file currently doesn't have any of the relevant routes so you'll need to write the routes you intend to use.
+
 To start your flask application run `python app.py`.
 
 In a seperate terminal `cd client` followed by `npm install` and `npm run dev`.
