@@ -9,3 +9,4 @@ class Song(db.Model, SerializerMixin):
     title = db.Column(db.String)
     artist = db.Column(db.String)
     youtube_link = db.Column(db.String)
+    # youtube_embed = db.Column(db.String)
